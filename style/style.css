@@ -1,0 +1,58 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(245, 248, 255);;
+    max-width:1440px ;
+    margin: 0 auto;
+    font-family: "Noto Serif", serif;
+}
+
+.mainbody{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* navbar section */
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;  
+} 
+
+.nav-btn{
+    list-style: none; 
+    
+}
+.nav-btn li {
+  display: flex;
+  gap: 48px;
+}
+.nav-btn a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+.shop-aboutus{
+    color: rgb(137, 135, 161);
+}
+.home{
+    font-weight:700 ;
+    
+}
+.card-icon{
+    width: 24px;
+    height: 24px;
+  
+}
