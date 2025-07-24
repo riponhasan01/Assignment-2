@@ -72,7 +72,7 @@
 .banner-title{
     font-size: 4.2rem;
     font-weight: 700;
-    margin-bottom: 0px;
+    margin-bottom: auto;
    
 }
 .color-1{
@@ -83,5 +83,54 @@
     font-size: 1.3rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 0;
+    margin-bottom: auto;
+}
+
+/* Our Plants section */
+
+.Our-plants{
+    text-align: center;
+}
+
+.our-plants-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: auto;
+}
+.our-plants-describtion{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+/*  card section */
+
+.card-container{
+    width: 270px;
+    height: 480px;
+    text-align: center;
+}
+.card{
+     margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card-container p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.card-container span{
+    font-weight: bold;
+}
+
+.card-btn{
+     background-color: rgb(233, 90, 8);
+     width: 270px;
+     height: 50px;
+     color: rgb(255, 255, 255);
+     border: none;
+     font-weight: 600;
 }
