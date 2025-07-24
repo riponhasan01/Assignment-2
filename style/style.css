@@ -30,7 +30,9 @@
     align-items: center;
     margin-top: 30px;  
 } 
-
+.navbar-logo{
+    cursor: pointer;
+}
 .nav-btn{
     list-style: none; 
     
@@ -54,5 +56,32 @@
 .card-icon{
     width: 24px;
     height: 24px;
-  
+}
+
+/* banner */
+
+.banner-container{
+    margin-top: 226px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:flex-end;  
+   
+}
+
+
+.banner-title{
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+   
+}
+.color-1{
+   color: rgb(233, 90, 8);
+}
+
+.banner-describtion{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
 }
