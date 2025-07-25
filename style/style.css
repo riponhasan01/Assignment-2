@@ -264,7 +264,7 @@
 /* colorful-bunch-section */
 
 .colorful-bunch{
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(../assets/news-letter-bg.png);
     height: 533px;
     display: grid;
     place-items: center;
