@@ -357,3 +357,77 @@ text-align: center;
 
 
 /* responsive */
+
+    @media screen and (max-width: 767px) {
+        
+         .shop-aboutus {
+            display: none;
+        }
+        .home{
+            display: none;
+        }
+        .nav-btn{
+            margin-top: 35px;
+
+        }
+        .navbar {
+            padding: 10px;
+        }
+
+
+        .banner-container  {
+            grid-template-columns: 1fr;
+            
+            
+        }
+        .banner-left{
+            order: -1;
+            max-width: auto;
+            
+        }
+        .card{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+        }
+        
+        .lover-badge{
+            display: none;
+        }
+
+        .plants-lover-section{
+            flex-direction: column;
+        }
+      
+        .latest-deal-img{
+            flex-direction: column;
+        
+        }
+        .right-img{
+            width: 367px;
+            height: 201px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .right-img a{
+            margin-bottom: -140px;
+            font-size: 20px;
+        }
+        .colorful-bunch{
+            width: 393px;
+            height: 276px;
+        }
+         .colorful-bunch h1{
+               font-size: 20px;
+         }
+        .colorful-bunch input{
+            width:250px;
+            height: 50px;
+        }
+        .input-btn-1{
+            width: 103px;
+            height: 50px;
+        }
+
+
+    }
