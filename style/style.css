@@ -265,6 +265,7 @@
 
 .colorful-bunch{
     background-image: url(../assets/news-letter-bg.png);
+    width: 100%;
     height: 533px;
     display: grid;
     place-items: center;
