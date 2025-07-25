@@ -407,9 +407,12 @@ text-align: center;
         .plants-lover-section{
             flex-direction: column;
         }
-      
+      .latest-deal{
+        margin-left: 60px;
+      }
         .latest-deal-img{
             flex-direction: column;
+            margin-left:60px ;
         
         }
         .right-img{
